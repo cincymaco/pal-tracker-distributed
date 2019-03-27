@@ -1,2 +1,9 @@
 pal-tracker-distributed codebase
-it
+
+./gradlew cloudNativeDeveloperDistributedSystemDeployment \
+    -PregistrationServerUrl=https://registration-pal-buzzcocks.apps.evans.pal.pivotal.io \
+    -PbacklogServerUrl=https://backlog-pal-buzzcocks.apps.evans.pal.pivotal.io \
+    -PallocationsServerUrl=https://allocations-pal-buzzcocks.apps.evans.pal.pivotal.io \
+    -PtimesheetsServerUrl=https://timesheets-pal-buzzcocks.apps.evans.pal.pivotal.io
+
+
