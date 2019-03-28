@@ -1,6 +1,6 @@
 pal-tracker-distributed codebase
 
-./gradlew cloudNativeDeveloperDistributedSystemDeployment \
+./gradlew cloudNativeDeveloperDistributedSystemWithCircuitBreaker \
     -PregistrationServerUrl=https://registration-pal-buzzcocks.apps.evans.pal.pivotal.io \
     -PbacklogServerUrl=https://backlog-pal-buzzcocks.apps.evans.pal.pivotal.io \
     -PallocationsServerUrl=https://allocations-pal-buzzcocks.apps.evans.pal.pivotal.io \
