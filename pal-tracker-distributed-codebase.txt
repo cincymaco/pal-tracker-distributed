@@ -1,12 +1,1 @@
 pal-tracker-distributed codebase
-
-./gradlew cloudNativeDeveloperDistributedSystemWithSecurity \
-    -PuaaUrl=https://${UAA_ENDPOINT} \
-    -PclientId=${UAA_CLIENT_ID} \
-    -PclientSecret=${UAA_CLIENT_SECRET} \
-    -PregistrationServerUrl=https://registration-pal-buzzcocks.apps.evans.pal.pivotal.io \
-    -PbacklogServerUrl=https://backlog-pal-buzzcocks.apps.evans.pal.pivotal.io \
-    -PallocationsServerUrl=https://allocations-pal-buzzcocks.apps.evans.pal.pivotal.io \
-    -PtimesheetsServerUrl=https://timesheets-pal-buzzcocks.apps.evans.pal.pivotal.io
-
-
